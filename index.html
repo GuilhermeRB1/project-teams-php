@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2? família=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300 & display=swap"
+        rel="stylesheet">
+    <title>Formulário</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="./assets/php/recebe.php" class="form" method="POST">
+            <div class="input">
+                <input type="nome" name="Nome" id="nome" placeholder="Informe o seu nome" required>
+            </div>
+
+            <!--Gênero-->
+            <div class="input">
+                <label for="">Gênero: </label>
+                <div class="input-radio">
+                    <input type="radio" id="masculino" name="Genero" value="Masculino" required>
+                    <label for="">Masculino</label>
+                </div>
+                <div class="input-radio">
+                    <input type="radio" id="feminino" name="Genero" value="Feminino" required>
+                    <label for="">Feminino</label>
+                </div>
+                <div class="input-radio">
+                    <input type="radio" id="naoinformar" name="Genero" value="Prefere não informar" required>
+                    <label for="">Prefiro não informar</label>
+                </div>
+            </div>
+
+            <!--Data de nascimento-->
+            <div class="input">
+                <label for="">Data de nascimento: </label>
+                <input type="date" name="Data-de-Nascimento" id="datanasc" placeholder="Data de Nascimento"
+                    min="1990-01-01" max="2022-10-03" required>
+            </div>
+
+            <!--Telefone-->
+            <div class="input">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="Telefone" id="tel" placeholder="Telefone com DDD" maxlength="11" required>
+            </div>
+
+            <!--Email-->
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" placeholder="E-mail" required>
+            </div>
+            <div class="input">
+                <button id="enviar">Enviar</button>
+        </form>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
+</body>
+
+</html>
