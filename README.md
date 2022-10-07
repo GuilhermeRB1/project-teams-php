@@ -10,5 +10,6 @@
 -   André Albuquerque 👨🏻‍💻
 -   Beatriz Natali 👩🏻‍💻
 -   Murilo Almeida 👨🏻‍💻
--   Rafael Henrique 👨🏽‍💻
 -   Matheus Rocha 👨🏻‍💻
+-   Matheus Silva 👨🏽‍💻
+-   Rafael Henrique 👨🏽‍💻
