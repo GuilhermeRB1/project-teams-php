@@ -9,6 +9,7 @@
 
 -   André Albuquerque 👨🏻‍💻
 -   Beatriz Natali 👩🏻‍💻
+-   Guilherme Ribeiro 👨🏻‍💻
 -   Murilo Almeida 👨🏻‍💻
 -   Matheus Rodrigues 👨🏻‍💻
 -   Matheus Silva 👨🏽‍💻
